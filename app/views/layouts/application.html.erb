@@ -12,7 +12,10 @@
 	<%=  link_to "About", about_path %>-->
 	<%= render "layouts/header" %>
 	<div class="container">
-		<%= yield %>
+	<% flash.each do |name, msg| %>
+		<%= content_tag(:div, msg, class: "alert alert-#{name}") %>
+	<% end %>
+	<%= yield %>
 	</div>
 
 </body>
