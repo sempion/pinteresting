@@ -2,8 +2,8 @@ ActionMailer::Base.smtp_settings = {
 	address: "smtp.mandrillapp.com",
 	port: 587,
 	enable_starttls_auto: true,
-	user_name: "prajesh@sempion.com",
-	password: "69M9g-XfdI_KGo-6hS3quw",
+	user_name: "app36240875@heroku.com",
+	password: "2izUsfFwNLVJpTip07jKww",
 	authentication: "login"
 }
 
